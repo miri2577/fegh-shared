@@ -1,0 +1,15 @@
+name: fegh_cloud
+description: Cloud-Storage-Abstraktion fuer FEGH-Dokumentation und FEGH-Verwaltung. WebDAV-basierte Provider-Adapter fuer HiDrive, Nextcloud, ownCloud und Generic WebDAV.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  http: ^1.2.2
+  webdav_client: ^1.2.2
+
+dev_dependencies:
+  test: ^1.24.0
+  lints: ^3.0.0

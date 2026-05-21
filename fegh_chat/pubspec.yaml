@@ -1,0 +1,20 @@
+name: fegh_chat
+description: Matrix-basiertes Team-Chat-Modul fuer FEGH-Apps. E2E-verschluesselte Raeume, 1:1-Chats, File-Sharing, optional Admin-API fuer User-Provisioning auf einem Conduit-Server.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  matrix: ^6.2.0
+  file_picker: ^8.0.6
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^3.0.0

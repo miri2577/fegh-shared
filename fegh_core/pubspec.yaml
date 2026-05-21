@@ -1,0 +1,11 @@
+name: fegh_core
+description: Gemeinsame Domaenen-Modelle fuer FEGH-Apps. Client, Employee, Team, Shift — alles, was Doku und Verwaltung ueber die Cloud miteinander austauschen.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dev_dependencies:
+  test: ^1.24.0
+  lints: ^3.0.0

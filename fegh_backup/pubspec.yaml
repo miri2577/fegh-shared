@@ -1,0 +1,19 @@
+name: fegh_backup
+description: Gemeinsame Backup- und Recovery-Services fuer FEGH-Apps. RecoveryService (12-Wort Recovery-Phrase, MEK-Wiederherstellung, Recovery-Token), BackupCodec (AES-256-GCM Passwort-Verschluesselung), BackupEnvelope (Metadaten-Container).
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  crypto: ^3.0.3
+  cryptography: ^2.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^3.0.0

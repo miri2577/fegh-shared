@@ -1,0 +1,17 @@
+name: fegh_billing
+description: Rechnungsmodul fuer FEGH-Dokumentation und FEGH-Verwaltung. Models, XRechnung UBL 2.1 Export, steuerbefreite Leistungen §4 UStG, Leitweg-ID-Validierung.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  json_annotation: ^4.9.0
+  intl: ^0.20.0
+
+dev_dependencies:
+  test: ^1.24.0
+  lints: ^3.0.0
+  json_serializable: ^6.8.0
+  build_runner: ^2.4.9

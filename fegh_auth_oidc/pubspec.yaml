@@ -1,0 +1,21 @@
+name: fegh_auth_oidc
+description: OIDC-Login fuer FEGH-Apps (OAuth 2.0 Authorization Code + PKCE + RFC 8252 Loopback-Redirect). Nutzt System-Browser, speichert Tokens im sicheren Geraetespeicher.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  crypto: ^3.0.3
+  http: ^1.2.2
+  url_launcher: ^6.3.0
+  flutter_secure_storage: ^9.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^3.0.0

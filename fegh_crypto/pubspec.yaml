@@ -1,0 +1,15 @@
+name: fegh_crypto
+description: Gemeinsame Krypto-Primitive fuer FEGH-Dokumentation und FEGH-Verwaltung. Stellt das EncryptedRecord-Wire-Format sicher.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  cryptography: ^2.7.0
+  crypto: ^3.0.3
+
+dev_dependencies:
+  test: ^1.24.0
+  lints: ^3.0.0
